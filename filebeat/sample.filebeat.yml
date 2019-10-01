@@ -24,7 +24,7 @@ filebeat.inputs:
     env: "myenv"
   paths:
         #- c:\myapp\serverLog*
-		- /var/log/myapp/*.log
+	- /var/log/myapp/*.log
 
 #============================= Filebeat modules ===============================
 
